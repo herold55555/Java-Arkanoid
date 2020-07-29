@@ -1,0 +1,56 @@
+START_LEVEL
+level_name:Wide Medium
+ball_velocities:45,500 90,500 135,500 150,500
+background:color(RGB(153,0,204))
+paddle_speed:400
+paddle_width:600
+block_definitions:definitions/medium_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:28
+START_BLOCKS
+-
+-
+-
+-rrggbbyyppccoo--
+-rrggbbyyppccoo--
+END_BLOCKS
+END_LEVEL
+
+START_LEVEL
+level_name:Direct Hits
+ball_velocities:70,500 60,500 -70,500
+background:color(black)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:3
+START_BLOCKS
+-r-----r-----r-
+END_BLOCKS
+END_LEVEL
+
+START_LEVEL
+level_name:ZebraLand
+ball_velocities:45,550 -45,550 -30,550
+background:image(background_images/jungle.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/jungle_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:26
+START_BLOCKS
+-
+-
+-
+-
+-zzzzzzzzzzzzz--
+-zzzzzzzzzzzzz--
+END_BLOCKS
+END_LEVEL
